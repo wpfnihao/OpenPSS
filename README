@@ -1,0 +1,28 @@
+OpenPSS
+----------------------------------------------------------------------------
+
+OpenPSS is an algorithm for...
+
+This software contains the spams (http://spams-devel.gforge.inria.fr/) and graphcut_optimize (http://vision.csd.uwo.ca/code/) packages, which require a C++ compiler to compile the packages first before you can make this software work.
+
+Some codes in the ./Lrn ./ScaleSpace ./Utility are based on the Multi-Resolution Active Shape Models (referred as ASM3 in the source codes) written by Ghassan Hamarneh, Image Analysis Group, CHALMERS UNIVERSITY OF TECHNOLGY (http://www.cs.sfu.ca/~hamarneh/software/asm/).
+
+
+1. License
+
+This source code is released under the GPL license version 3.0.
+
+2. Website
+
+3. Feedback
+
+If you find any bug in the sofware, please drop a letter to wpfnihao@gmail.com.
+
+4. Citations
+
+
+
+
+----------------------------------------------------------------------------
+
+(c) 2011 - 2013 Pengfei Wu, wpfnihao@gmail.com
