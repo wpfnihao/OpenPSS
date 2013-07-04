@@ -1,12 +1,24 @@
 OpenPSS
 ----------------------------------------------------------------------------
 
-OpenPSS is an algorithm for...
+OpenPSS is an algorithm for prostate segmentation in TRUS images.
 
-This software contains the spams (http://spams-devel.gforge.inria.fr/) and graphcut_optimize (http://vision.csd.uwo.ca/code/) packages, which require a C++ compiler to compile the packages first before you can make this software work.
+This software contains the spams (http://spams-devel.gforge.inria.fr/) and
+graphcut_optimize (http://vision.csd.uwo.ca/code/) packages, which require 
+a C++ compiler to build the packages first before you can make this
+software work.
+Please find the README files therein for more information.
 
-Some codes in the ./Lrn ./ScaleSpace ./Utility are based on the Multi-Resolution Active Shape Models (referred as ASM3 in the source codes) written by Ghassan Hamarneh, Image Analysis Group, CHALMERS UNIVERSITY OF TECHNOLGY (http://www.cs.sfu.ca/~hamarneh/software/asm/).
+The implementation of several trivial steps of the framework is not 
+provided in this publicly available version, and only the *.mat files 
+are available.
 
+One pre-aligned shape groups are provided in this distribution, which 
+can be used to train the shape model (you might need to modify the dataName
+in the cell for different datasets).
+
+Usage: add the whole software directory to the Matlab PATH, then open the 
+openPSS.m file and follow the instructions therein.
 
 1. License
 
@@ -14,14 +26,16 @@ This source code is released under the GPL license version 3.0.
 
 2. Website
 
+https://github.com/wpfnihao/OpenPSS
+
 3. Feedback
 
-If you find any bug in the sofware, please drop a letter to wpfnihao@gmail.com.
+If you find any bug in the software, please drop a letter to 
+wpfnihao@gmail.com.
 
 4. Citations
 
-
-
+N/A
 
 ----------------------------------------------------------------------------
 
